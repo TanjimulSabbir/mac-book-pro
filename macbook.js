@@ -33,7 +33,7 @@ document.getElementById("cost-delivery-button").addEventListener("click", functi
     costDeliveryButton.innerText = 20;
     Totalprice()
 })
-// ekhane memory,storage and delivery er innerText niye, sob variable gulu ke JOk kore dichi.Trpr total-price e Jok innerText e add kore dichi.Sathe Sathe Footer-total eo innerText add korE dichi. 
+// ekhane memory,storage and delivery er innerText niye,sob variable gulu ke Jok kore dichi.Trpr plus result ke total-price er innerText e add kore dichi.Sathe Sathe Footer-total eo plus result innerText e add kore dichi. 
 function Totalprice() {
     memory = document.getElementById('ex-Memory-Cost').innerText;
     storage = document.getElementById('ex-storage-Cost').innerText;
@@ -43,7 +43,7 @@ function Totalprice() {
     document.getElementById("footer-total").innerText = totalAmount + 1299;
     promoCode()
 }
-// ekahne promo Code cheak kore ,cheak true hole total-price ke 20% kore abar total-price e discount minus kore innerText korchi.
+// ekhane promo Code check kore,check true hole total-price ke 20% korchi,trpr abar total-price e 20%-discount minus korchi,trpr innerText e add korchi.
 function promoCode() {
     code = document.getElementById('promo-input').value;
     totalPrice = document.getElementById("total-price").innerText;
